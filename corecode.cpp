@@ -24,10 +24,11 @@ int main()
 	typeEffect("****************************************\n");
 
 	typeEffect("\n\n\n");
-	typeEffect("Continue? [Y] or [N]");
+	typeEffect("Continue? [Y] or [N]\n");
 	string ConChoice;
+	cin >> ConChoice;
 	if (ConChoice == "Y" || "y") {
-		typeEffect("Welcome to the ARPANET");
+		typeEffect("Welcome to the ARPANET\n");
 
 		std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 
@@ -45,7 +46,7 @@ int main()
 
 	}
 	else if (ConChoice == "N" || "n") {
-		typeEffect("Exiting...");
+		typeEffect("Exiting...\n");
 			return 1;
 
 	}
