@@ -28,6 +28,21 @@ int main()
 	ConChoice;
 	if (ConChoice == "Y" || "y") {
 		typeEffect("Welcome to the ARPANET");
+
+		std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+
+		typeEffect("ARPANET NODE INTERFACE\n\n"          );
+		typeEffect("-----------------------------\n\n", 1);
+		typeEffect("NETWORK STATUS: OPERATIONAL\n"       );
+		typeEffect("NODES ONLINE: 42\n"                  );
+		typeEffect("Packets in transit: N/A\n"           );
+		typeEffect("PROTOCOL: NCP / TCP-IP\n\n"          );
+		typeEffect("-----------------------------"\n\n, 1);
+
+		typeEffect("Welcome, Operator.\n");
+
+		typeEffect("Type Help for available commands\n");
+
 	}
 	else if (ConChoice == "N" || "n") {
 		typeEffect("Exiting...");
