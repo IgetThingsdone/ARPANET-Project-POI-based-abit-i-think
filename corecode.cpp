@@ -13,31 +13,31 @@ void typeEffect(std::string text) {
 
 int main()
 {
-    typeEffect("****************************************\n", 1);
-    typeEffect("*                                      *\n", 1);
-	typeEffect("*                ARPANET               *\n"   );
-	typeEffect("*                                      *\n", 1);
-	typeEffect("*           PROPERTY OF THE            *\n"   );
-    typeEffect("*       UNITED STATES OF AMERICA       *\n"   );
-	typeEffect("*                                      *\n", 1);
-	typeEffect("*                                      *\n", 1);
-	typeEffect("****************************************\n", 1);
+    typeEffect("****************************************\n");
+    typeEffect("*                                      *\n");
+	typeEffect("*                ARPANET               *\n");
+	typeEffect("*                                      *\n");
+	typeEffect("*           PROPERTY OF THE            *\n");
+    typeEffect("*       UNITED STATES OF AMERICA       *\n");
+	typeEffect("*                                      *\n");
+	typeEffect("*                                      *\n");
+	typeEffect("****************************************\n");
 
-	typeEffect("\n\n\n", 1);
+	typeEffect("\n\n\n");
 	typeEffect("Continue? [Y] or [N]");
-	ConChoice;
+	string ConChoice;
 	if (ConChoice == "Y" || "y") {
 		typeEffect("Welcome to the ARPANET");
 
 		std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 
-		typeEffect("ARPANET NODE INTERFACE\n\n"          );
-		typeEffect("-----------------------------\n\n", 1);
-		typeEffect("NETWORK STATUS: OPERATIONAL\n"       );
-		typeEffect("NODES ONLINE: 42\n"                  );
-		typeEffect("Packets in transit: N/A\n"           );
-		typeEffect("PROTOCOL: NCP / TCP-IP\n\n"          );
-		typeEffect("-----------------------------"\n\n, 1);
+		typeEffect("ARPANET NODE INTERFACE\n\n"       );
+		typeEffect("-----------------------------\n\n");
+		typeEffect("NETWORK STATUS: OPERATIONAL\n"    );
+		typeEffect("NODES ONLINE: 42\n"               );
+		typeEffect("Packets in transit: N/A\n"        );
+		typeEffect("PROTOCOL: NCP / TCP-IP\n\n"       );
+		typeEffect("-----------------------------\n\n");
 
 		typeEffect("Welcome, Operator.\n");
 
