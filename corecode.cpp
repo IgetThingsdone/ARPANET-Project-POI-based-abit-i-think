@@ -156,6 +156,11 @@ int main()
                 typeEffect("Whoami           - Displays Current Operator\n");
                 typeEffect("Banner           - Displays My ASCII Logo\n");
                 typeEffect("Ping <institute> - Pings an institution ex. ping HARVARD (yes caps on the name is required\n");
+                typeEffect("Status           - Displays netwrok status\n");
+                typeEffect("Trace route      - Traces packet route\n");
+            }
+            else if (command == "Trace Route" || command == "trace route\n") {
+                typeEffect("Work in progress")
             }
             else if (command == "Ping UCLA" || command == "ping UCLA") {
                 typeEffect("Pinging UCLA\n");
